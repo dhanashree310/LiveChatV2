@@ -1,4 +1,4 @@
-const socket = io.connect("http://localhost:3000");
+const socket = io.connect("https://livechat-ccproject.onrender.com");
 
 const sender = document.querySelector("#Name");
 const text = document.querySelector("#textmessage");
