@@ -7,7 +7,7 @@ const app = express();
 const httpserver=createServer(app)
 
 const LoginRouter = require("./routers/loginRouter");
-const RegisterRouter = require("./routers/RegisterRouter");
+const RegisterRouter = require("./routers/registerRouter");
 const chatRouter = require("./routers/chatRouter");
 const Logout = require("./routers/logoutRouter");
 
